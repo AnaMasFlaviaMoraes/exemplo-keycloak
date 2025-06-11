@@ -1,0 +1,29 @@
+{
+  "name": "exemplo-keycloak",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Este projeto é um exemplo prático de como integrar o Keycloak em uma aplicação Node.js utilizando `express`, com autenticação de usuários.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnaMasFlaviaMoraes/exemplo-keycloak.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnaMasFlaviaMoraes/exemplo-keycloak/issues"
+  },
+  "homepage": "https://github.com/AnaMasFlaviaMoraes/exemplo-keycloak#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "keycloak-connect": "^26.1.1"
+  }
+}

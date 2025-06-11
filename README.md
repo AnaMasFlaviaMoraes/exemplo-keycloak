@@ -56,7 +56,7 @@ Acesse: [http://localhost:8080](http://localhost:8080)
 3. Crie um novo **Client**:
    - Client ID: `meu-app-node`
    - Client Type: `Public`
-   - Root URL: `http://localhost:3000`
+   - Root URL: `http://localhost:3001`
    - Ative: `Standard Flow`
    - Desative: `Direct Access Grants` se não for necessário
    - Habilite o campo `Web Origins` com `*` (ou seu domínio real)
@@ -88,8 +88,8 @@ npm run dev
 
 ## 🧪 Testando a aplicação
 
-1. Acesse: `http://localhost:3000/` → Página pública
-2. Acesse: `http://localhost:3000/protegido` → Redireciona para o login do Keycloak
+1. Acesse: `http://localhost:3001/` → Página pública
+2. Acesse: `http://localhost:3001/protegido` → Redireciona para o login do Keycloak
 3. Faça login com o usuário criado → Retorna conteúdo da rota protegida
 
 ---
